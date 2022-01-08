@@ -1,0 +1,198 @@
+#Blogs{
+    background-color: #F7FAFD;
+    min-height: 250vh;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+   
+    .container{
+        max-width: 1040px;
+        min-height: 250vh;
+        
+        .row{
+            
+            
+            .col-lg-8{
+                
+                
+                .blog-list{
+                    
+                    
+                    #forJirona{
+
+                        
+                        .col-lg-12{
+                
+                   height: 100%;
+                            .jirona{
+                                margin-bottom: 30px;
+                                text-align: center;
+                                overflow: hidden;
+                                background: #fff;
+                                box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.062);
+                                height: 100%;
+                                border-radius: 5px;
+                              
+                               .forImg{
+                                margin-top: -20px;
+                                width: 100%;
+                                height: 70%;
+                                overflow: hidden;
+                                   img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    
+                                   }
+                                   .date{
+                                  
+                                       bottom: 0;
+                                       background-color: brown;
+                                       span{
+                                       
+                                       }
+                                   }
+                               }
+
+                               a{
+                                text-decoration: none;
+                               }
+
+                               h4{
+                                padding-left: 30px;
+                                padding-right: 30px;
+                                margin-bottom: 10px !important;
+                      
+                                bottom: 22%;
+                                    a{
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        color: #3B566E;
+                                        letter-spacing: 1px;
+                                        line-height: 26px;
+                                        text-decoration: none;
+                                    }
+                               }
+
+                               .description{
+                        
+                                bottom: 10%;
+                               }
+                               button{
+                   
+                              bottom: 2%;
+                               }
+                            }
+                        }
+
+                    }
+
+                    #forPosts{
+
+                        .col-lg-6{
+                            min-height: 50%;
+                            
+                            .post{
+                                
+                                text-align: center;
+                                overflow: hidden;
+                                background: #fff;
+                                box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.062);
+                               height: 80%;
+                                
+                                display: flex;
+                                
+                                flex-direction: column;
+                                align-items:center;
+                                justify-content: center;
+                                border-radius: 5px;
+                                .forImg{
+                                 
+                                 
+                                 border-radius: 5px;
+                                 margin-bottom: 23px;
+                                 
+                                 max-height: 200px;
+                                 overflow: hidden;   
+                            
+                                    img{
+                                        max-width: 100%;
+                                        padding: 0px;
+                                        margin: 0px;
+                                    }
+                                    .date{
+                                        
+                                        bottom: 0;
+                                        background-color: brown;
+                                       
+                                        span{
+                                            
+                                        }
+                                    }
+                                }
+                                a{
+                                    text-decoration: none;
+                                    
+                                    bottom: 27%;
+                                }
+ 
+                                h4{
+                                    padding-left: 30px;
+                                    padding-right: 30px;
+                          
+                                 
+
+
+                              
+                                    a{
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        color: #3B566E;
+                                        letter-spacing: 1px;
+                                        line-height: 26px;
+                                        text-decoration: none;
+                                    }
+ 
+                                }
+ 
+                                .description{
+                                    
+                             
+                                    font-size: 14px;
+
+                                    
+                                }
+                                button{
+                               text-transform: uppercase;
+                               width: 150px;
+                               margin: auto;
+                               display: inline-block;
+                               line-height: 26px;
+                               text-align: center;
+                               border-radius: 5px;
+                               border-color: #585CE9;
+                               background: #585CE9;
+                               font-weight: 700;
+                               font-size: 11px;
+                               color: #ffffff;
+                               letter-spacing: 0.75px;
+                               text-decoration: none;
+                               
+                               bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .col-lg-4{
+                background-color: red;
+            }
+        }
+    }
+}
