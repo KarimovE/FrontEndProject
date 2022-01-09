@@ -1,0 +1,506 @@
+#BlogSingle{
+    background-color: #F7FAFD;
+    min-height: 300vh;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    .container{
+        max-width: 1040px;
+        min-height: 300vh;
+    
+        #mainRow{
+            min-height: 300vh;
+
+            .col-lg-8{
+                height: 100%;
+                position: relative;
+                .blog-list{
+                    height: 100%;
+                    position: relative;
+                    #forJirona{
+                    margin-bottom: 10px;
+                    position: relative;
+                    background: #fff;
+                    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.308);
+                        
+                        .col-lg-12{
+                            height: 100%;
+                     display: flex;
+                            .jirona{
+                                margin-bottom: 30px;
+                                text-align: center;
+                                overflow: hidden;
+                         
+                                height: 100%;
+                                border-radius: 5px;
+                              position: relative;
+                               .forImg{
+                                border-radius: 5px;
+                                margin-bottom: 10px;
+                                height: 80%;
+                                width: 100%;
+                                overflow: hidden;   
+                                position: relative;
+                                margin-top: -68px;
+                                   img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit:cover;
+                                    
+                                   }
+                                   .date{
+                                  
+                                       bottom: 0;
+                                       background-color: #00000034;
+                                       width: 60px;
+                                       position: absolute;
+                                       bottom: 0;
+                                       left: 50%;
+                                       transform: translateX(-50%);
+                                       span{
+                                       color: #fafafa;
+                                       font-weight: 600;
+                                       }
+                                   }
+                               }
+
+                               a{
+                                text-decoration: none;
+                                margin: 0 20px;
+                                span{
+                                    margin: 0 10px;
+                                }
+                               }
+
+                               h4{
+                                padding-left: 30px;
+                                padding-right: 30px;
+                                margin-bottom: 10px !important;                   
+                                bottom: 22%;
+                                    a{
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        color: #3B566E;
+                                        letter-spacing: 1px;
+                                        line-height: 26px;
+                                        text-decoration: none;
+                                    }
+                               }
+
+                               .description{
+                                bottom: 10%;
+                                font-weight: 400;
+                                font-size: 14px;
+                                color: #6F8BA4;
+                                letter-spacing: 0.88px;
+                                line-height: 26px;
+                                margin-bottom: 15px;
+                               }
+                               button{
+                                text-transform: uppercase;
+                                width: 150px;
+                                margin: auto;
+                                line-height: 26px;
+                                text-align: center;
+                                border-radius: 5px;
+                                border-color: #585CE9;
+                                background: #585CE9;
+                                font-weight: 700;
+                                font-size: 11px;
+                                color: #ffffff;
+                                letter-spacing: 0.75px;
+                                text-decoration: none;
+                                position: absolute;
+                                bottom: 2%;
+                                right: 50%;
+                                transform: translateX(50%);
+                               }
+                            }
+
+                            .col-lg-4{
+                                .forImage{
+                                    border-radius: 5px;
+                                    height: 85%;
+                                    width: 85%;
+                                    overflow: hidden;  
+                                    margin: 10px; 
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit:cover;
+                   
+                                    }
+                                }
+                            }
+
+                            p{
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 28px;
+                                text-align: left;
+                                color: #6F8BA4;
+                                letter-spacing: 0.88px;
+                                margin: 20px 10px;
+                            }
+
+                            .quote{
+                                background-color: #F4F8FB;
+                                text-align: center;
+                                padding: 35px;
+                                margin: 20px 10px;
+                          
+                                .phrase{
+                                    p{
+                                        font-size: 12px;
+                                        text-align: center;
+                                    }
+                                  
+                                 
+                                }
+                                .author{
+
+                                }
+                              
+                            }
+
+                            .social-media{
+                                display: flex;
+                                justify-content:space-between;                           
+                                width: 100%;
+                                margin: 20px 10px;
+
+                                span{
+                                    height: 30px;
+                                    line-height: 30px;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    color: #6F8BA4;
+                                    padding-left: 30px;
+                                }
+                                ul{
+                                    display: flex;
+                                    li{
+                                        list-style: none;
+                                        margin: 0 8px;
+                                    }
+                                }
+                            }
+
+                            .comments{
+                               
+                                
+                                h4{
+                                    font-weight: 500;
+                                    color: #6F8BA4;
+                                    line-height: 1.2;
+                                }
+
+                                ul{
+                                    overflow: hidden;
+                                    margin: 0 20px;
+                                    padding: 0px;
+                                    li{
+                                        padding: 0;
+                                        margin: 0;
+                                        list-style: none;
+                                       display: flex;
+                                      
+
+                                        .icon{
+                                            width: 70px;
+                                            height: 70px;
+                                            border-radius: 5px;
+                                            overflow: hidden;
+                                            margin: 0 10px;
+                                            position: relative;
+                                            img{
+                                                width: 100%;
+                                                height: 100%;
+                                                object-fit:contain;
+                                                position: absolute;
+                                            
+                                            }
+                                        }
+                                        .comment{
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            color: #6F8BA4;
+
+
+                                            .author{
+                                                position: relative;
+                                                h3{
+                                                    display: block;
+                                                    color: #3B566E;
+                                                    font-size: 13px;
+                                                }
+                                                span{
+                                                    font-size: 12px;
+                                                }
+                                                a{
+                                                    position: absolute;
+                                                    right: 0px;
+                                                    top: 15px;
+                                                    background: #F4F8FB;
+                                                    color: #6F8BA4;
+                                                    height: 25px;
+                                                    line-height: 25px;
+                                                    padding-left: 10px;
+                                                    padding-right: 10px;
+                                                    border-radius: 5px;
+                                                    text-decoration: none;
+                                                }
+                                            }
+                                            p{
+                                                font-weight: 400;
+                                                font-size: 14px;
+                                                color: #6F8BA4;
+                                            }
+                                        }
+
+                                     
+                                    }
+                                }
+                            }
+                            .yourComment{
+                                width: 100%;
+                                margin: 40px 10px;
+                                h4{
+                                    font-family: inherit;
+                                    font-weight: 500;
+                                    line-height: 1.2;
+                                    color: #6F8BA4;
+                                }
+                                .formm{
+                                    form{
+                                      
+                                        .row{
+                                            .col-lg-6{
+                                              
+                                                .inputForName, .inputForEmail{
+
+                                                
+                                                    label{
+                                                        text-transform: uppercase;
+                                                        font-weight: 600;
+                                                        font-size: 14px;
+                                                        margin-bottom: 0px;
+                                                        letter-spacing: 0.88px;
+                                                        line-height: 28px;
+                                                        color: #6F8BA4;
+
+                                                    }
+                                                    #name{
+                                                        border: 1px solid #eee;
+                                                        width: 100%;
+                                                        height: 40px;
+                                                        outline: none;
+                                                        padding-left: 20px;
+                                                        padding-right: 20px;
+                                                        border-radius: 4px;
+
+                                                    }
+                                                    #Email{
+                                                        border: 1px solid #eee;
+                                                        width: 100%;
+                                                        height: 40px;
+                                                        outline: none;
+                                                        padding-left: 20px;
+                                                        padding-right: 20px;
+                                                        border-radius: 4px;
+                                                    }
+                                                }
+                                            }
+                                            .col-lg-12{
+                                                width: 100%;
+                                                .form-item{
+                                                   width: 100%;
+                                                    label{
+                                                        display: block;
+                                                        text-transform: uppercase;
+                                                        font-weight: 600;
+                                                        font-size: 14px;
+                                                        margin-bottom: 0px;
+                                                        color: #6F8BA4;
+                                                    }
+                                                    #commentSection{
+                                                        border: 1px solid #eee;
+                                                        width: 100%;
+                                                        height: 150px;
+                                                        outline: none;
+
+                                                    }
+                                                }
+                                                button{
+                                                    text-transform: uppercase;
+                                                    width: 150px;
+                                                    line-height: 26px;
+                                                    text-align: center;
+                                                    border-radius: 5px;
+                                                    border-color: #585CE9;
+                                                    background: #585CE9;
+                                                    font-weight: 700;
+                                                    font-size: 11px;
+                                                    color: #ffffff;
+                                                    letter-spacing: 0.75px;
+                                                    text-decoration: none;
+                                                    bottom: 2%;
+                                                    right: 50%;
+                                                    margin-top: 10px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+
+            }
+
+            .col-lg-4{
+               .search{
+                   position: relative;
+                   height: 50px;
+                   form{
+                    display: block;
+                    margin-top: 0em;
+                    height: 100%;
+                    input{
+                        border: 1px solid #fff;
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        outline: none;
+                        padding-left: 20px;
+                        padding-right: 50px;
+                    }
+                    button{
+                        position: absolute;
+                        z-index: 2;
+                        right: 7px;
+                        top: 7px;
+                        height: 35px;
+                        width: 35px;
+                        border: none;
+                    }
+                   }
+                 
+               }
+               ul{
+                background: #fff;
+                box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+                overflow: hidden;
+                border-radius: 5px;
+                 margin: 28px 0;
+                 li{
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    border: 0;
+                    outline: 0;
+                     a{
+                         text-decoration: none;
+                         display: block;
+                        border-bottom: 1px solid #ECF7FF;
+                        height: 50px;
+                        line-height: 50px;
+                        padding-left: 59px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #3B566E;
+                        letter-spacing: 0.88px;
+                         span{
+                            margin-right: 30px;
+                            display: inline-block;
+                            background: #585CE9;
+                            height: 20px;
+                            line-height: 20px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            font-size: 10px;
+                            color: #fff;
+                            margin-top: 18px;
+                         }
+                     }
+                 }
+               }
+               .tags{
+                padding: 30px;
+                padding-bottom: 20px;
+                overflow: hidden;
+                border-radius: 4px;
+                background: #fff;
+                box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+                margin: 28px 0;
+
+                
+                a{
+                    text-decoration: none !important;
+                    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3B566E;
+                }
+               }
+               .boxContact{
+                    overflow: hidden;
+                    border-radius: 5px;
+                    text-align: center;
+                    height: 230px;
+                    position: relative;
+                    background-image: url("/Assets/images/app.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size:cover;           
+                    margin-bottom: 30px;
+                    padding: 0;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: #585de931;
+                    }
+                            
+                    .info{
+                        margin: 0;
+                        position: absolute;
+                        bottom: 10%;
+                        z-index: 3;
+
+                        p{
+                        color: #fff;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 30px;
+                        letter-spacing: 1.12px;
+
+
+                        }
+                        button{
+                            width: 160px;
+                            margin: auto;
+                            background-color:#ffffff;
+                            color: #585CE9;
+                        }
+                    }
+               }
+            }
+        }
+    }
+}
