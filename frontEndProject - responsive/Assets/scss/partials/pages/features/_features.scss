@@ -1,0 +1,76 @@
+#featuress{
+    background-color: #F7FAFD;
+    min-height: 100vh;
+    padding: 100px 0;
+    .container{
+        max-width: 1040px;
+        .row{
+            .col-lg-6{
+                .service{
+                    height: 226px;
+                    text-decoration: none;
+                    padding: 30px;
+                    background: #fff;
+                    border-radius: 3px;
+                    box-shadow: 0 2px 48px 0 rgba(8, 8, 8, 0.08);
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 30px;
+
+                    .icon{
+                        min-width: 145px;
+                        position: relative;
+                        text-align: center;
+                        min-height: 145px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 18px;
+
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            top: 10%;
+                            left: 10%;
+                            width: 115px;
+                            height: 115px;
+                            background: #F7FAFD;
+                            border-radius: 5px;
+                            transition-duration: 0.5s;
+
+                       
+                        }
+                        &:hover::before{
+                            transform: rotate(45deg);
+                        }
+                        img{
+                            z-index: 2;
+                        }
+                    }
+                    .description{
+                        padding: 0 15px;
+                        min-width: 270px;
+                        h4{
+                            font-weight: 450;
+                            font-size: 15px;
+                            line-height: 26px;
+                            color: #3B566E;
+                            margin-bottom: 13px;
+                            letter-spacing: 0.80px;
+                        }
+                        p{
+                            margin-bottom: 0px !important;
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: #6F8BA4;
+                            line-height: 26px !important;
+                            letter-spacing: .88px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
