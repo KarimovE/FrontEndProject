@@ -1,0 +1,217 @@
+#FAQss {
+  background-color: $main-color;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container {
+    max-width: 1040px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .row {
+      min-height: 400px;
+      .col-lg-6 {
+        padding-right: 0;
+        padding-left: 0;
+        .description {
+          height: 100%;
+          max-width: 100%;
+          margin: 80px 20px;
+          h3 {
+            font-size: 28px;
+            color: $secondary-color;
+            letter-spacing: 1.88px;
+            margin-bottom: 20px;
+            font-weight: 400;
+          }
+          p {
+            margin-bottom: 29px;
+            line-height: 29px;
+            font-size: 15px;
+            color: $third-color;
+            letter-spacing: 0.75px;
+          }
+          button {
+            text-transform: uppercase;
+            width: 150px;
+            margin: auto;
+            display: inline-block;
+            line-height: 27px;
+            text-align: center;
+            border-radius: 5px;
+            border-color: $secondary-color;
+            background: $secondary-color;
+            font-weight: 700;
+            font-size: 11px;
+            color: $main-color;
+            letter-spacing: 0.75px;
+
+            &:hover {
+              background: #4c50ce;
+            }
+          }
+        }
+        .questions {
+          margin: 0;
+          max-height: 100%;
+          max-width: 100%;
+          margin: 80px 10px;
+          background-color: $main-color;
+          .Qsn {
+            min-height: 40px;
+            margin: 0;
+            border: none;
+            width: 100%;
+            font-weight: 200;
+            font-size: 14.5px;
+            letter-spacing: $main-letter-spacing;
+            color: #3b566e;
+            cursor: pointer;
+            box-shadow: $main-box-shadow;
+            padding: 10px 20px;
+            background-color: $main-color;
+            .heading {
+              transition: 0.5s;
+              background-color: #fff;
+              line-height: 20px;
+              height: 10px;
+              padding: 20px 30px;
+              color: $third-color;
+              display: flex;
+              justify-content: left;
+              align-items: center;
+              &:hover {
+                padding-left: 35px;
+                transition: 0.5s;
+                background-color: #f7f6ff;
+              }
+            }
+            .Qbody {
+              display: none;
+              padding: 7px;
+              padding: 30px;
+              padding-left: 35px;
+              padding-bottom: 11px;
+              font-weight: 400;
+              font-size: 14px;
+              color: $third-color;
+              line-height: 28px;
+              letter-spacing: $main-letter-spacing;
+              // p{
+
+              // }
+            }
+            .Qbody.act {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #FAQss {
+    background-color: $main-color;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+      max-width: 1040px;
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .row {
+        min-height: 400px;
+        .col-lg-6 {
+          padding-right: 0;
+          padding-left: 0;
+          .description {
+            height: 100%;
+            max-width: 100%;
+            margin: 80px 20px;
+            h3 {
+              font-size: 28px;
+              color: $secondary-color;
+              letter-spacing: 1.88px;
+              margin-bottom: 20px;
+              font-weight: 400;
+            }
+            p {
+              margin-bottom: 29px;
+              line-height: 29px;
+              font-size: 15px;
+              color: $third-color;
+              letter-spacing: 0.75px;
+            }
+            button {
+              text-transform: uppercase;
+              width: 150px;
+              margin: auto;
+              display: inline-block;
+              line-height: 27px;
+              text-align: center;
+              border-radius: 5px;
+              border-color: $secondary-color;
+              background: $secondary-color;
+              font-weight: 700;
+              font-size: 11px;
+              color: $main-color;
+              letter-spacing: 0.75px;
+
+              &:hover {
+                background: #4c50ce;
+              }
+            }
+          }
+          .questions {
+            margin: 0;
+            max-height: 100%;
+            max-width: 100%;
+            margin: 30px 10px;
+            background-color: $main-color;
+            .Qsn {
+              min-height: 40px;
+              margin: 0;
+              border: none;
+              width: 100%;
+              font-weight: 200;
+              font-size: 14.5px;
+              letter-spacing: $main-letter-spacing;
+              color: #3b566e;
+              cursor: pointer;
+              box-shadow: $main-box-shadow;
+              padding: 20px 30px;
+              background-color: $main-color;
+              .heading {
+                transition: 0.5s;
+                background-color: $main-color;
+                &:hover {
+                  padding-left: 35px;
+                  transition: 0.5s;
+                  background-color: #f7f6ff;
+                }
+              }
+              .Qbody {
+                display: none;
+                // p{
+
+                // }
+              }
+              .Qbody.act {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

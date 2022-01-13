@@ -1,0 +1,22 @@
+@import"./partials/extend/index";
+@import"./partials/variables/index";
+@import"./partials/mixins/index";
+@import"./partials/pages/home/home";
+@import"./partials/pages/aboutUs/aboutUs";
+@import"./partials/pages/FAQs/FAQs";
+@import"./partials/pages/features/Features";
+@import"./partials/pages/features/Features";
+@import"./partials/pages/blog/blog";
+@import"./partials/pages/contact/contact";
+@import"./partials/pages/blogSingle/blogSingle";
+
+
+
+body{
+    background-image: url("/Assets/images/pages/home/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;    
+    font-family: $main-font-family;
+}
